@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
 
-export const Nav = () => {
-  return (
-    <div>Nav</div>
-  )
-}
-
-export default Nav
+const Nav = () => {
+    return (
+        <nav className='navbar'>
+            <h3>Team's todo list</h3>
+        </nav>
+    );
+};
+export default Nav;
